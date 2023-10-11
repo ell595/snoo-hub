@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #363732;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav p {
+    display: inline-block;
+    color: #DCE1E9;
+    float: left;
+}
+
+.nav input {
+    display: inline-block;
+    text-align: center;
+    background-color: #DCE1E9;
+    color: #363732;
+    float: right
+}
