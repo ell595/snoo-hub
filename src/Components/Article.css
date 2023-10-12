@@ -1,3 +1,29 @@
 article {
-    background-color: white;
+    text-decoration: none;
+    background-color: rgb(220, 225, 233);
+    width: 30%;
+    border-radius: 7px;
+    padding: 15px;
+    margin-y: 20px;
+}
+
+article a {
+    text-decoration: none;
+    color: rgb(54, 55, 50);
+}
+
+article a:visited {
+    color: rgb(54, 55, 50);
+}
+
+article h5 {
+    color: rgb(54, 55, 50);
+}
+
+article img {
+    width: 50%;
+}
+
+.pink {
+    color: rgb(212, 175, 185);
 }

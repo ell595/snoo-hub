@@ -7,10 +7,10 @@ function Article(props) {
             <a href={ "https://reddit.com" + props.article.permalink } target="_blank">
                 <h3>{ props.article.title }</h3>
                 <img src={ props.article.thumbnail } />
-                <h4>{ props.article.ups } Upvotes</h4>
-                <h4>Posted by { props.article.author }</h4>
-                <h4>{ props.article.num_comments } comments</h4>
             </a>
+            <h5>{ props.article.ups } Upvotes</h5>
+            <h5>Posted by <span class="pink">{ props.article.author }</span></h5>
+            <h5><span class="pink">{ props.article.num_comments }</span> comments</h5>
         </article>
     )
 }

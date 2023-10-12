@@ -1,5 +1,5 @@
 .App {
-    background-color: rgb(220, 225, 233);
+    background-color: white;
 
 }
 
@@ -7,8 +7,16 @@
     display: flex;
     justify-content: space-around;
     background-color: rgb(54, 55, 50);
+    margin-bottom: 15px;
 }
 
 .App-header p {
     color: rgb(83, 216, 251);
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
