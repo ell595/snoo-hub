@@ -1,0 +1,14 @@
+.App {
+    background-color: rgb(220, 225, 233);
+
+}
+
+.App-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(54, 55, 50);
+}
+
+.App-header p {
+    color: rgb(83, 216, 251);
+}
